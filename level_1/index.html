@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Webpage | Cognifyz Level 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#javascript-tasks">JavaScript Tasks</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+
+        <h1>Welcome to My Webpage</h1>
+
+        <p>
+            This is my first webpage created using HTML and CSS.
+        </p>
+
+        <!-- Corrected Image Path -->
+        <img
+            src="../images/cartoon_baby.jpg"
+            alt="Cartoon baby illustration"
+            width="300"
+        >
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+
+        <h2>About This Project</h2>
+
+        <p>
+            I created this webpage to practise basic web development.
+        </p>
+
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <label for="visitorName">Your name</label>
+
+            <input
+                type="text"
+                id="visitorName"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <button type="submit">Submit</button>
+
+            <p id="formMessage" aria-live="polite"></p>
+
+        </form>
+
+    </section>
+
+    <!-- JavaScript Tasks Introduction -->
+    <section id="javascript-tasks">
+
+        <h2>JavaScript Tasks</h2>
+
+        <p>
+            Practising JavaScript through three simple activities.
+        </p>
+
+    </section>
+
+    <!-- Task 1: Change Button Color -->
+    <section id="task1">
+
+        <h2>Task 1: Change Button Color</h2>
+
+        <p>Click the button to change its background color.</p>
+
+        <button id="colorButton" type="button">
+            Change My Color
+        </button>
+
+    </section>
+
+    <!-- Task 2: Greeting Based on Time -->
+    <section id="task2">
+
+        <h2>Task 2: Greeting Based on Time</h2>
+
+        <p>Click the button to see a greeting.</p>
+
+        <button id="greetingButton" type="button">
+            Show Greeting
+        </button>
+
+    </section>
+
+    <!-- Task 3: Addition Calculator -->
+    <section id="task3">
+
+        <h2>Task 3: Simple Addition Calculator</h2>
+
+        <label for="firstNumber">First number</label>
+
+        <input
+            type="number"
+            id="firstNumber"
+            placeholder="Enter first number"
+            step="any"
+            required
+        >
+
+        <label for="secondNumber">Second number</label>
+
+        <input
+            type="number"
+            id="secondNumber"
+            placeholder="Enter second number"
+            step="any"
+            required
+        >
+
+        <button id="addButton" type="button">
+            Add Numbers
+        </button>
+
+        <p id="result" aria-live="polite">
+            Result will appear here.
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 My Webpage | Cognifyz Level 1 Practice
+        </p>
+
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
